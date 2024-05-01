@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: rgb(118, 14, 14);
+    padding: 1em 2em;
+}
+
+.container ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5em;
+}
+
+
+.container ul li a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+
+
+.search input {
+    padding: 8px 0;
+}
+
+.search button {
+    padding: 8px 2em;
+    background: #000;
+    color: #fff;
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    gap: 30px;
+    padding: 1em 3em;
+}
+
+.content .para {
+    width: 50%;
+}
+
+
+.content .image {
+    width: 50%;
+}
+
+
+
+.para h2 {
+    margin-bottom: 1em;
+}
+
+.image img {
+    height: 500px;
+    width: 600px;
+    object-fit: cover;
+}
+
+.para p {
+    margin-bottom: 2em;
+}
+
+.button button {
+    padding: 8px 2em;
+    background-color: grey;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+.cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em 3em;
+}
+
+
+
+.cards .card {
+    width: 30%;
+    text-align: center;
+}
+
+.cards .card img {
+    height: 300px;
+    width: 250px;
+    margin-bottom: 1em;
+}
